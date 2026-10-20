@@ -18,5 +18,20 @@ public class Spiel
     {
         return online;
     }
+    
+    public void setTitel(String neuTitel)
+    {
+        titel = neuTitel;
+    }
+    
+    public void setSpieler(int neuSpieler)
+    {
+        spieler = neuSpieler;
+    }
+    
+    public void setOnline(boolean neuOnline)
+    {
+        online = neuOnline;
+    }
 
 }
