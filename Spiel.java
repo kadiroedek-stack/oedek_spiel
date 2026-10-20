@@ -33,5 +33,18 @@ public class Spiel
     {
         online = neuOnline;
     }
+    
+    public Spiel(String neuTitel, int neuSpieler, boolean neuOnline)
+    {
+        setTitel(neuTitel);
+        setSpieler(neuSpieler);
+        setOnline(neuOnline);
+    }
+    
+    
+    
+    
+    
+    
 
 }
